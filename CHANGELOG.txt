@@ -1,0 +1,19 @@
+1.7.3: Add retry function to prevent IP Configuraiton leak.
+1.7.2: Update NIC on install.
+1.7.1: Remove unique compute properties on delete.
+1.7.0:
+  - Support use_external_resource for deployments
+  - Set Deployment outputs in runtime properties
+  - Fix bug that prevented healing from attaching new data disk to healed VM.
+1.6.2:
+  - Additional fixes handling response headers.
+1.6.1:
+  - Fix a bug where deleted resource groups state was unclear because of missing location header.
+1.6.0:
+  - Support Azure Stack.
+1.5.1:
+  - Handle UserData/CustomScript.
+1.5.0:
+  - Support ARM Deployment type.
+1.4.3:
+  - Support accept inputs to operation on create VM.

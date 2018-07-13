@@ -5,7 +5,7 @@
 plugins:
   pkg:
     executor: central_deployment_agent
-    source: https://github.com/gkatsaros/cloudify-azure-plugin/blob/master/cloudify_azure_plugin-1.7.4.zip
+    source: https://github.com/gkatsaros/cloudify-azure-plugin/raw/master/cloudify_azure_plugin-1.7.4.zip
     package_name: cloudify-azure-plugin
     package_version: '1.7.4'
 
